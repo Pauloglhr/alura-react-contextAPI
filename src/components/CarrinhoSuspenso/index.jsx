@@ -5,6 +5,7 @@ import TotalCarrinho from "./TotalCarrinho";
 import Titulo from "@/components/Titulo";
 import { CarrinhoContext } from "@/context/CarrinhoContext";
 
+
 const CarrinhoSuspenso = () => {
   const { carrinho } = useContext(CarrinhoContext);
   return (
